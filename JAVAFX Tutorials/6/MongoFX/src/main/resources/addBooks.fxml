@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AddBooks">
+   <children>
+      <Button layoutX="217.0" layoutY="294.0" mnemonicParsing="false" onAction="#add" text="ADD">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <VBox layoutX="46.0" layoutY="14.0" prefHeight="271.0" prefWidth="410.0" spacing="18.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="410.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="200.0" style="-fx-alignment: center;" text="Book Id">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtId" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="410.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="200.0" style="-fx-alignment: center;" text="ISBM Number">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtISBM" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="410.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="200.0" style="-fx-alignment: center;" text="Name">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtName" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="410.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="200.0" style="-fx-alignment: center;" text="Author">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtAuthor" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="410.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="200.0" style="-fx-alignment: center;" text="Editor">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtEditor" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="410.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="200.0" style="-fx-alignment: center;" text="Publisher">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtPublisher" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

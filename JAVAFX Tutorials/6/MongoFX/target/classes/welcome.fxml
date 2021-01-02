@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Welcome">
+   <children>
+      <Button layoutX="56.0" layoutY="48.0" mnemonicParsing="false" onAction="#addBook" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: #82E128; -fx-background-radius: 20;" text="Add Book">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font></Button>
+      <Label layoutX="85.0" layoutY="14.0" text="Library System">
+         <font>
+            <Font name="Candara" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="57.0" layoutY="111.0" mnemonicParsing="false" onAction="#viewBook" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: rgb(70, 162, 248); -fx-background-radius: 20;" text="View Books">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="57.0" layoutY="175.0" mnemonicParsing="false" onAction="#deleteBook" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: rgb(219, 58, 38); -fx-background-radius: 20;" text="Delete Book">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
