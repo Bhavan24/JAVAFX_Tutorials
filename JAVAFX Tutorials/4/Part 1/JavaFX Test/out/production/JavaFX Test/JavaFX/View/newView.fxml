@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="345.0" prefWidth="345.0" style="-fx-background-color: rgb(18, 245, 23);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Controllers.ControllerNewview">
+   <children>
+      <Button layoutX="19.0" layoutY="14.0" mnemonicParsing="false" onAction="#openPreWindow" text="Back" />
+      <Label layoutX="71.0" layoutY="150.0" text="NEW WINDOW" textFill="#0a4dff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

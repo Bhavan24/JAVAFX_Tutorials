@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: rgb(27, 134, 217);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Controllers.Question2">
+      <Button layoutX="73.0" layoutY="67.0" mnemonicParsing="false" onAction="#printOnLabel" text="Enter Text">
+         <font>
+            <Font name="Book Antiqua" size="27.0" />
+         </font></Button>
+      <Label fx:id="lblText" layoutX="37.0" layoutY="21.0" prefHeight="35.0" prefWidth="230.0" style="-fx-alignment: center;" text=" ">
+         <font>
+            <Font name="Book Antiqua" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="110.0" layoutY="137.0" mnemonicParsing="false" onAction="#printOnConsole" prefHeight="35.0" prefWidth="86.0" text="PRINT">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></Button>
+</AnchorPane>

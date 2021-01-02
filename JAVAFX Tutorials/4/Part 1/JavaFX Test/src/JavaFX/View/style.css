@@ -1,0 +1,35 @@
+.buttonStyle1 {
+    -fx-background-color: transparent;
+    -fx-border-color:  #82E128;
+    -fx-border-width: 2;
+}
+.buttonStyle1:hover {
+    -fx-background-color: #2EF3D3;
+    -fx-border-color:  #82E128;
+    -fx-border-width: 2;
+}
+.buttonStyle1:pressed {
+	-fx-background-color: transparent;
+	-fx-border-color:  #82E128;
+	-fx-border-width: 2;
+}
+
+.buttonStyle2 {
+    -fx-background-image:url('/JavaFX/View/img.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+    -fx-border-color:  #82E128;
+    -fx-border-width: 2;
+}
+.buttonStyle2:hover {
+    -fx-background-color: #2EF3D3;
+    -fx-border-color:  #82E128;
+    -fx-border-width: 2;
+}
+.buttonStyle2:pressed {
+	-fx-background-image:url('/JavaFX/View/img.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+    -fx-border-color:  #82E128;
+    -fx-border-width: 2;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Controllers.AddressBookController">
+   <children>
+      <Button layoutX="117.0" layoutY="113.0" mnemonicParsing="false" onAction="#openAddContact" prefHeight="49.0" prefWidth="267.0" styleClass="buttonStyle1" stylesheets="@../style.css" text="Add Contact" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="184.0" mnemonicParsing="false" onAction="#openContacts" prefHeight="49.0" prefWidth="267.0" styleClass="buttonStyle2" stylesheets="@../style.css" text="View Contacts" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="255.0" mnemonicParsing="false" onAction="#close" prefHeight="49.0" prefWidth="267.0" styleClass="buttonStyle3" stylesheets="@../style.css" text="Quit" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="136.0" layoutY="39.0" text="Address Book">
+         <font>
+            <Font name="Gill Sans MT Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

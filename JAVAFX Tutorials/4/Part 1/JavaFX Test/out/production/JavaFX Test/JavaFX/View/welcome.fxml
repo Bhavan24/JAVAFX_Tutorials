@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="500.0" style="-fx-background-color: #98DBC6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Controllers.ControllerWelcome">
+   <children>
+      <Button fx:id="btnNew" layoutX="138.0" layoutY="94.0" mnemonicParsing="false" onAction="#openWindow" prefHeight="62.0" prefWidth="224.0" styleClass="buttonStyle1" stylesheets="@style.css" text="NEW WINDOW" textAlignment="CENTER">
+         <font>
+            <Font name="Tw Cen MT" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSet" layoutX="412.0" layoutY="14.0" mnemonicParsing="false" onAction="#openSettings" prefHeight="50.0" prefWidth="50.0" styleClass="buttonStyle2" stylesheets="@style.css" textAlignment="CENTER" textFill="#0250eb" />
+      <Button fx:id="btnClose" cancelButton="true" layoutX="398.0" layoutY="194.0" mnemonicParsing="false" onAction="#close" prefHeight="42.0" prefWidth="79.0" styleClass="buttonStyle1" stylesheets="@style.css" text="Close">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

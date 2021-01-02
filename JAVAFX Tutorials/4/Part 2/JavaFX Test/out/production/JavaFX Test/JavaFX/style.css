@@ -1,0 +1,36 @@
+.buttonStyle1 {
+    -fx-background-color: rgb(70, 162, 248);
+    -fx-background-radius: 25;
+}
+.buttonStyle1:hover {
+    -fx-background-color: rgb(176, 190, 197);
+    -fx-background-radius: 25;
+}
+.buttonStyle1:pressed {
+    -fx-background-color: rgb(70, 162, 248);
+    -fx-background-radius: 25;
+}
+.buttonStyle2 {
+    -fx-background-color: rgb(83, 173, 50);
+    -fx-background-radius: 25;
+}
+.buttonStyle2:hover {
+    -fx-background-color: rgb(176, 190, 197);
+    -fx-background-radius: 25;
+}
+.buttonStyle2:pressed {
+    -fx-background-color: rgb(83, 173, 50);
+    -fx-background-radius: 25;
+}
+.buttonStyle3 {
+    -fx-background-color: rgb(219, 58, 38);
+    -fx-background-radius: 25;
+}
+.buttonStyle3:hover {
+    -fx-background-color: rgb(176, 190, 197);
+    -fx-background-radius: 25;
+}
+.buttonStyle3:pressed {
+    -fx-background-color: rgb(219, 58, 38);
+    -fx-background-radius: 25;
+}

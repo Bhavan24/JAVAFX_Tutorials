@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: rgb(114, 107, 214);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button layoutX="193.0" layoutY="141.0" mnemonicParsing="false" text="Sign in" textFill="#ff2100">
+            <effect>
+                <Glow level="0.36" />
+            </effect>
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+        <Label layoutX="33.0" layoutY="107.0" text="Password:" />
+        <PasswordField layoutX="118.0" layoutY="103.0" />
+        <TextField layoutX="118.0" layoutY="66.0" />
+        <Label layoutX="33.0" layoutY="70.0" text="User Name:" />
+        <Label layoutX="28.0" layoutY="21.0" text="Welcome">
+            <font>
+                <Font name="Century" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
